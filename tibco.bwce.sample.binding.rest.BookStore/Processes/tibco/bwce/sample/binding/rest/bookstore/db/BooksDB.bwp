@@ -464,8 +464,9 @@
     </tibex:Types>
     <tibex:ProcessInfo callable="false" createdBy="nshah"
         createdOn="Mon Sep 29 14:02:36 IST 2014" description=""
-        modifiers="public" productVersion="1.2.0 V18 2014-09-27"
-        scalable="true" singleton="true" stateless="false" type="IT"/>
+        extraErrorVars="false" modifiers="public"
+        productVersion="1.2.0 V18 2014-09-27" scalable="true"
+        singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessTemplateConfigurations/>
     <notation:Diagram measurementUnit="Pixel" type="BWProcess"
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
@@ -3188,7 +3189,7 @@
                             </bpws:extensionActivity>
                             <bpws:extensionActivity>
                                 <tibex:activityExtension
-                                    expression="0.75"
+                                    expression="0.76"
                                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"
                                     inputVariable="Discount"
                                     name="Discount"
@@ -3199,7 +3200,7 @@
                                     </bpws:sources>
                                     <tibex:inputBindings>
                                     <tibex:inputBinding
-                                    expression="0.75" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                                    expression="0.76" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                                     </tibex:inputBindings>
                                     <tibex:config>
                                     <bwext:BWActivity
